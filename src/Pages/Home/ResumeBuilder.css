@@ -1,0 +1,68 @@
+.resume-builder-container {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color:#000;
+  }
+  
+  .description {
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .step-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .step-number {
+    background-color: #6c9085;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin-right: 70px;
+    
+  }
+  
+  .step-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .step-text {
+    text-align: left;
+  }
+  
+  .step-text h1{
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #000;
+  }
+  
+  .step-text p {
+    color: #666;
+  }
+  
+  .step-image img {
+    width: 80%; /* Adjust the width as needed */
+    margin-left: 20px;
+  }
+  .step-images img {
+    width: 80%; /* Adjust the width as needed */
+    height:2%;
+    margin-left: 20px;
+  }
+  

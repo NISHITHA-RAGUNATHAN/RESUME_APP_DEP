@@ -1,0 +1,86 @@
+/* Login.css */
+html, body {
+  height: 100%;
+  margin: 0;
+  
+}
+
+.login-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+}
+.background-video1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure video covers the whole background */
+  z-index: -1; /* Make sure it is behind the login container */
+}
+
+.login-container {
+ 
+  max-width: 700px; 
+  padding: 30px; /* Padding inside the container */
+  border: 1px solid #cccccc12; /* Border around the container */
+  border-radius: 8px; /* Rounded corners */
+  text-align: center; /* Center text inside the container */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for the container */
+  background: rgba(255, 255, 255, 0.251); /* Slightly opaque background for better readability */
+  z-index: 1; /* Ensure it is above the background video */
+  position: relative; /* Position relative to allow z-index to work */
+  position: relative;
+  z-index: 1; /* Ensure the form is above the video */
+ 
+  margin: 0 auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.242); /* Optional: makes the form background slightly opaque */
+  border-radius: 8px;
+  overflow: hidden; /* Slightly visible border */
+}
+
+.login-container h2 {
+  margin-bottom: 10px;
+}
+
+.login-container .form-group {
+  margin-bottom: 10px;
+  margin-left: 70px;
+  margin-right: 70px;
+  
+  text-align: left;
+}
+
+.login-container .form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.login-container button {
+  width: 63%;
+  padding: 12px; /* Increase padding for button */
+  background-color:rgba(237, 174, 107, 0.984);
+  color:Black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-left: 8%;
+ 
+}
+
+.login-container .form-group input {
+  width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.new {
+  color: black;
+}

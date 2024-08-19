@@ -1,0 +1,64 @@
+.upload-resume-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: rgb(141, 132, 132);
+}
+
+.upload-button {
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  transition: background-color 0.3s;
+}
+
+.upload-button:hover {
+  background-color: #e0e0e0;
+}
+
+.resume-textarea {
+  width: 80%;
+  height: 400px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  resize: none;
+  transition: border-color 0.3s;
+  margin-bottom: 20px; /* Add space between text area and button */
+}
+
+.resume-textarea:focus {
+  border-color: #aaa;
+  outline: none;
+}
+
+.save-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #0e3b6a;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.save-button:hover {
+  background-color: lightblue;
+}

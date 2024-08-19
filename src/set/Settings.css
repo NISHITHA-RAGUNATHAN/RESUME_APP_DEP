@@ -1,0 +1,52 @@
+.settings-container {
+    background: var(--chakra-colors-gray-100);
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    max-width: 600px;
+    margin: 2rem auto;
+    transition: background 0.3s ease;
+}
+
+.settings-title {
+    color: var(--chakra-colors-darkslategray);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.settings-label {
+    font-size: 1.1rem;
+    color: var(--chakra-colors-gray-700);
+}
+
+.settings-switch {
+    margin-left: auto;
+}
+
+.settings-save-btn {
+    background-color: var(--chakra-colors-teal-500);
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.settings-save-btn:hover {
+    background-color: var(--chakra-colors-teal-600);
+}
+
+@media (prefers-color-scheme: dark) {
+    .settings-container {
+        background: var(--chakra-colors-gray-700);
+    }
+    .settings-title {
+        color: white;
+    }
+    .settings-label {
+        color: var(--chakra-colors-gray-300);
+    }
+}

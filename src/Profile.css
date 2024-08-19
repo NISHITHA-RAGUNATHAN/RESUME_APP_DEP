@@ -1,0 +1,76 @@
+/* General body styling */
+.profile-body {
+  font-family: Arial, sans-serif;
+  background-image: url(https://i.pinimg.com/originals/e5/2d/5e/e52d5ea42a74e13d9accc60768559d93.gif);
+  background-repeat: no-repeat;
+  background-size: cover;  /* Ensure the image covers the entire screen */
+  background-position: center; /* Center the background image */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container for the profile form */
+.profile-container {
+  background-color: #a1d7c074;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  margin-top: 10%;
+  margin-left: 6%;
+}
+
+/* Styling for the heading */
+.profile-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input fields styling */
+.profile-container input {
+  width: 50%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Focus effect for input fields */
+.profile-container input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Update button styling */
+.profile-container button {
+  width: 50%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.profile-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Back button styling */
+.buttonback {
+  background-color: #0057b39f;
+  padding: 10px;
+  width: 25%;
+  margin-left: 300px;
+} 

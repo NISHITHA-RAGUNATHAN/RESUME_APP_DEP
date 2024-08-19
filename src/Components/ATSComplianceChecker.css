@@ -1,0 +1,91 @@
+/* ATSComplianceChecker.css */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+ 
+}
+
+.container {
+  position: relative;
+  z-index: 2; /* Ensures the content is above the video */
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  color: white; /* Makes text readable over the video background */
+}
+
+.title {
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+
+.file-input {
+  display: block;
+  margin: 20px auto;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.pdf-preview-container {
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.8); /* Slight transparency to show the background video */
+  position: relative;
+}
+
+.pdf-preview-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.pdf-preview-icon {
+  font-size: 1.5em;
+  margin-right: 10px;
+}
+
+.pdf-preview-text {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: black;
+}
+
+.pdf-preview {
+  width: 100%;
+  height: 500px;
+  border: none;
+}
+
+.textarea {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.check-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1em;
+}
+
+.feedback {
+  margin-top: 20px;
+  white-space: pre-wrap;
+  color: black;
+}
+
+.background-video1 {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 1;
+  object-fit: cover; /* Ensures the video covers the screen without distortion */
+  pointer-events: none; /* Prevents interaction with the video */
+}

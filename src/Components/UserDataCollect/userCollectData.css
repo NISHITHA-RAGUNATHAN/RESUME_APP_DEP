@@ -1,0 +1,196 @@
+/* General Styles */
+#user-data-collect {
+    background-color: rgb(52, 221, 221);
+    border-radius: 10px;
+    padding: 20px;
+    
+    border: #333;
+    margin: auto;
+    width: 700px;
+    position: relative;
+}
+
+/* Form Controls */
+input, textarea {
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    padding: 10px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    width: 80%;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+input:focus, textarea:focus {
+    border-color: gray;
+    box-shadow: 0 0 5px rgba(106, 92, 208, 0.3);
+    outline: none;
+    width: '100px';
+}
+
+input::placeholder, textarea::placeholder {
+    color: #888;
+    width: '100px';
+}
+#co{
+    background-color:darkslategray;
+    width: '200px';
+}
+/* Buttons */
+button {
+    
+    border: #333;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-bottom: 15px; /* Space between buttons and other elements */
+}
+
+button:hover {
+    background-color: gray;
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+button:disabled {
+    
+    cursor: not-allowed;
+}
+.co{
+    background-color: #333;
+}
+/* File Input */
+.file {
+    margin-bottom: 15px;
+}
+
+.file input[type="file"] {
+    display: none;
+}
+
+.file label {
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    display: inline-block;
+}
+
+.file label:hover {
+    background: darkslategray;
+}
+
+/* Resume Card */
+.resume-card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    
+    margin: 20px 0;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.resume-card:hover {
+   
+    transform: scale(1.02);
+}
+
+.resume-card h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.resume-card p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.resume-card .section {
+    margin-bottom: 15px;
+}
+
+.resume-card .section h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.resume-card .section p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #666;
+}
+
+/* Flex Container for Form Sections */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Form Section */
+.form-section {
+    background: white;
+    border-radius: 8px;
+    padding: 15px;
+   
+    flex: 1 1 calc(50% - 20px);
+    min-width: 250px;
+    margin-bottom: 20px;
+    border: 1px solid #dcdcdc;
+}
+
+/* Specific styling for personal details box */
+.form-section.personal-details {
+    flex: 1 1 calc(50% - 20px);
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #user-data-collect {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .form-section {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .resume-card {
+        margin: 10px 0;
+    }
+
+    .form-section.personal-details {
+        width: calc(100% - 20px);
+        margin-right: 10px;
+    }
+}
+
+/* Additional styles for better visibility */
+.resume-build-box:hover {
+    border-color: #aaa;
+    box-shadow: 0 6px 12px rgba(200, 200, 200, 0.5);
+}
+
+#App {
+    background-color: #666;
+}
